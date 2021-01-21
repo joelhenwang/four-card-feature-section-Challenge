@@ -1,0 +1,96 @@
+/* HTML Selectors */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(0, 0%, 98%);
+}
+
+strong{
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+}
+
+/* Title Section */
+
+#title{
+    padding: 5% 30%;
+    text-align: center;
+}
+
+
+.slogan{
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+.subtitle{
+    padding: 0 15%;
+    color: hsl(229, 6%, 66%);
+}
+
+/* Cards Section */
+
+#cards{
+    padding: 0 20% 5%;
+}
+
+/* Cards design */
+.info-card{
+    margin-top: 30px;
+    border-radius: 8px;
+    padding: 0 ;
+    background-color:white;
+    overflow: hidden;    
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+/* Card's top "border" */
+.top-color{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    height: 3px;
+    
+}
+
+/* Card's top border colors */
+
+.cyan{
+    background-color: hsl(180, 62%, 55%);
+}
+
+.red{
+    background-color: hsl(0, 78%, 62%);
+}
+
+.orange{
+    background-color: hsl(34, 97%, 64%);
+}
+
+.blue{
+    background-color: hsl(212, 86%, 64%);
+}
+
+/* Inside card's information */
+.subinfo{
+    padding: 10% 10%;
+}
+
+.topic{
+    font-size: 1.25rem;
+}
+
+.topic-info{
+    color: hsl(229, 6%, 66%);
+    font-size: 0.75rem;
+}
+
+/* Icon positioning */
+
+.icon{
+    float: right;
+    margin: 30% 1% 10% 0%
+}
+
+
+
